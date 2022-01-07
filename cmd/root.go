@@ -3,9 +3,10 @@ package cmd
 import (
 	"os"
 
-	"github.com/Sirupsen/logrus"
+	template "github.com/timmypotts/gk/templates"
+
 	"github.com/kujtimiihoxha/gk/fs"
-	"github.com/kujtimiihoxha/gk/templates"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"

@@ -3,12 +3,13 @@ package parser
 import (
 	"bytes"
 	"fmt"
-	"github.com/Sirupsen/logrus"
 	"go/ast"
 	"go/format"
 	"go/parser"
 	"go/token"
 	"strings"
+
+	"github.com/sirupsen/logrus"
 )
 
 type Parser interface {

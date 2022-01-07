@@ -2,12 +2,14 @@ package fs
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
+	"os"
+
+	template "github.com/timmypotts/gk/templates"
+
 	"github.com/Songmu/prompter"
-	"github.com/kujtimiihoxha/gk/templates"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"github.com/spf13/viper"
-	"os"
 )
 
 type FileSystem interface {

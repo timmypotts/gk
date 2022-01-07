@@ -3,12 +3,13 @@ package template
 import (
 	"bytes"
 	"fmt"
-	"github.com/Sirupsen/logrus"
-	"github.com/kujtimiihoxha/gk/utils"
 	"path/filepath"
 	"reflect"
 	"strings"
 	"text/template"
+
+	"github.com/kujtimiihoxha/gk/utils"
+	"github.com/sirupsen/logrus"
 )
 
 var engine Engine

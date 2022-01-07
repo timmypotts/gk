@@ -1,13 +1,14 @@
 package main
 
 import (
-	"github.com/Sirupsen/logrus"
-	"github.com/kujtimiihoxha/gk/cmd"
-	"github.com/kujtimiihoxha/gk/utils"
-	"github.com/spf13/afero"
-	"github.com/spf13/viper"
 	"os"
 	"strings"
+
+	"github.com/kujtimiihoxha/gk/cmd"
+	"github.com/kujtimiihoxha/gk/utils"
+	"github.com/sirupsen/logrus"
+	"github.com/spf13/afero"
+	"github.com/spf13/viper"
 )
 
 func main() {

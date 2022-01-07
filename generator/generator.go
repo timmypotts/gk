@@ -6,12 +6,13 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/Sirupsen/logrus"
+	template "github.com/timmypotts/gk/templates"
+
 	"github.com/go-errors/errors"
 	"github.com/kujtimiihoxha/gk/fs"
 	"github.com/kujtimiihoxha/gk/parser"
-	"github.com/kujtimiihoxha/gk/templates"
 	"github.com/kujtimiihoxha/gk/utils"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"golang.org/x/tools/imports"
 )

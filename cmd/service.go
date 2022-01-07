@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/Sirupsen/logrus"
 	"github.com/kujtimiihoxha/gk/generator"
+	"github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"
 )
 
